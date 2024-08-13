@@ -1,5 +1,5 @@
-1) We had to i,mport the libraries initially . The code is given in file called import_libraries.
-2) Denormalization function is used to reverse the normalization applied to the images before they are displayed. It takes tensor images and denormalizes them to their original values. Code used for it is given in denormalization.py
+1) We had to import the libraries initially . The code is given in file called import_libraries.
+2) Denormalization function is used to reverse the normalization applied to the images before they are displayed. It takes tensor images and denormalizes them to their original values. Code used for it is given in denormalization.py.
 3) Later we did DCS Architecture and Argument classification , the codes are given in the respective named files.
 4) Custom Network Architecture (MyNet Class) code defines a custom network architecture for further refining features. It includes convolutional layers and a DCS layer (emau).
 5) We used function to Get List of Files that recursively obtains a list of files from a given directory.
