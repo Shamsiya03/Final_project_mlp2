@@ -1,1 +1,8 @@
-# Final_project_mlp2
+1) We had to i,mport the libraries initially . The code is given in file called import_libraries.
+2) Denormalization function is used to reverse the normalization applied to the images before they are displayed. It takes tensor images and denormalizes them to their original values. Code used for it is given in denormalization.py
+3) Later we did DCS Architecture and Argument classification , the codes are given in the respective named files.
+4) Custom Network Architecture (MyNet Class) code defines a custom network architecture for further refining features. It includes convolutional layers and a DCS layer (emau).
+5) We used function to Get List of Files that recursively obtains a list of files from a given directory.
+6) 'Run' function represents the main image segmentation process. It loads the input image from folder called 'image' and its corresponding superpixel segmentation, initializes the network and optimizer, performs training iterations, and shows and saves intermediate segmentation results into the folder called 'output'. Code is given in the name run.py.
+7) The main function iterates through a list of images, calling the run function for each image to perform image segmentation. It calculates and outputs the average time taken for segmentation.Code is given in the name main.py.
+8) To see the result that is output image before and after, we used the code in the (). The input images for the experiment are sourced from the image folder. After applying the image segmentation process, the segmented images will be saved to the output folder. Consequently, we will showcase the images before and after segmentation to illustrate the results.
